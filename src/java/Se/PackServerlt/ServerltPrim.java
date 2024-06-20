@@ -67,11 +67,8 @@ public class ServerltPrim extends HttpServlet {
         output.println("");
         output.println("");
         output.println("Fecha y hora actual: " + new Date());
-        output.println("<form>");
-        output.println("</form>");
         output.println("</body></html>");
         
-        processRequest(request, response);
     }
 
     /**
